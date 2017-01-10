@@ -17,7 +17,7 @@ def replaceattribute(x,attribute,newstring):
     old = x.attrib["{"+t+"}"+splits[1]]
     x.attrib["{"+t+"}"+splits[1]] = newstring
     pass
-
+'''add test'''
 
 with open(filepath, 'r') as myfile:
     data=myfile.read().replace('\n', '')
